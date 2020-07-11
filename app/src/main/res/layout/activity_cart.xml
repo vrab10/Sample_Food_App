@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CartActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/rlCart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:id="@+id/cartTool"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="#ffffff"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/cartTool"
+        android:id="@+id/txtLinear"
+        android:layout_marginTop="20dp">
+
+        <TextView
+        android:id="@+id/txtOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordering From:"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="4dp"
+        android:padding="3dp"/>
+
+        <TextView
+            android:id="@+id/txtResName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaraunt Name"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="4dp"
+            android:padding="3dp"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/txtLinear"
+        android:background="@color/colorPrimary"
+        android:id="@+id/cartDivider"
+        android:layout_marginTop="15dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtLinear"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/recylerCart"
+        android:layout_above="@id/btnPlaceOrder"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="Amount"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/btnPlaceOrder"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

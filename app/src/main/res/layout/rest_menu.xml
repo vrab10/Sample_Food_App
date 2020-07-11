@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/menuTool"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:minHeight="?android:attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                android:background="@color/colorPrimary"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:id="@+id/menuFrame"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</RelativeLayout>

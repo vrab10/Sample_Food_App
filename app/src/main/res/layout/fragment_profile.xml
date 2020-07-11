@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileFragment"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_users_round"
+        android:id="@+id/imgUser"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:id="@+id/username"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_marginTop="8dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Phone No"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:id="@+id/usernumber"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_marginTop="8dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Email"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:id="@+id/useremail"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_marginTop="8dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="City"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:id="@+id/userplace"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">FoodRunner</string>
+    <string name="mobile_number_10digits">Mobile Number (10digits)</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account? Sign up now</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="delivery">Delivery Address</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name">Name(Min. 3 characters)</string>
+    <string name="email_address">Email Address</string>
+    <string name="register">Register</string>
+    <string name="enter_the_registered_mobile_and_email_below">Enter the registered mobile and email below</string>
+    <string name="next">Next</string>
+    <string name="food_files">Food Files</string>
+    <string name="food_runner">Food Runner</string>
+    <string name="new_password_min_6_characters">New Password(Min 6 characters)</string>
+    <string name="otp_4characters">OTP(4characters)</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favourite_restaurants">Favourite Restaurants</string>
+    <string name="order_history">Order History</string>
+    <string name="faqs">FAQs</string>
+    <string name="log_out">Log out</string>
+    <string name="opendrawer">Open Drawer</string>
+    <string name="closedrawer">Close Drawer</string>
+    <string name="shared">Login</string>
+    <string name="faq_answer_one">A1. Sorry, we don’t accept orders on call. However you can call us on +91-7259085922 for any help related to placing order.
+    </string>
+    <string name="faq_answer_two">A.2 We will send you a order confirmation email once we receive your order.
+    </string>
+    <string name="faq_answer_four">A.4 Yes. You will get your invoice from our supplier at the time of delivery.
+    </string>
+    <string name="faq_answer_three">A.3 You will have to pay at the time of delivery as per the payment details we send to you via email.</string>
+    <string name="faq_answer_five">A.5 This depends on the items that you have ordered. We have partnered with different brands for different products to help you get the best prices. So, if you have ordered for different items, you might not receive them all at once.
+    </string>
+    <string name="faq_answer_six">A.6 Best products - We only list the products which have passed our tests and are the best suitable for delivery. They will help in giving a better consumer experience, so you can get get repeated orders.
+
+Best prices - We have negotiated rates with our distributors exclusive for Restaurant.
+
+Convenience - No need to haggle for prices. No need to follow-up on delivery. We track all orders to ensure you have a hassle free experience.
+    </string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose_from_menu_listed_below">Choose from menu listed below:</string>
+
+</resources>
